@@ -26,7 +26,7 @@ export const createSubscription = async (req, res, next) => {
         });
     } catch (error) {
         return next(error);
-    }
+    } 
 }
 
 export const getUserSubscriptions = async (req, res, next) => {
